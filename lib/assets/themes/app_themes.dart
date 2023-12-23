@@ -10,7 +10,6 @@ var kDarkColorScheme = ColorScheme.fromSeed(
 );
 
 final ThemeData lightTheme = ThemeData().copyWith(
-  useMaterial3: true,
   colorScheme: kColorScheme,
   appBarTheme: const AppBarTheme().copyWith(
     backgroundColor: kColorScheme.onPrimaryContainer,
@@ -35,7 +34,6 @@ final ThemeData lightTheme = ThemeData().copyWith(
 );
 
 final ThemeData darkTheme = ThemeData.dark().copyWith(
-  useMaterial3: true,
   colorScheme: kDarkColorScheme,
   cardTheme: const CardTheme().copyWith(
     color: kDarkColorScheme.secondaryContainer,
